@@ -17,7 +17,14 @@ numero2 = int(input('digite outro númento: '))
 resultado = numero1 * numero2
 print(resultado)
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+inteiro = int(input('Digite aqui um número inteiro'))
+inteiro2 = int(input('Digite aqui outro número inteiro'))
+divisao_inteira = inteiro // inteiro2
+print(divisao_inteira)
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+numero_quadrado = int(input('Digite um número: '))
+resultado2 = numero_quadrado ** 2
+print(resultado2)
 
 # #### Números de Ponto Flutuante (`float`)
 
