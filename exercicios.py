@@ -43,7 +43,12 @@ soma = flutuante1 + flutuante2
 media = soma / 2
 print(soma)
 print(media)
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+base = float(input('Qual a base: '))
+potencia = float(input('qual a potência: '))
+resultado3 = base ** potencia
+print(resultado3)
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
