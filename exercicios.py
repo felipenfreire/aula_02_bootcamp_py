@@ -16,11 +16,13 @@ numero1 = int(input('Digite um número: '))
 numero2 = int(input('digite outro númento: '))
 resultado = numero1 * numero2
 print(resultado)
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 inteiro = int(input('Digite aqui um número inteiro'))
 inteiro2 = int(input('Digite aqui outro número inteiro'))
 divisao_inteira = inteiro // inteiro2
 print(divisao_inteira)
+
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 numero_quadrado = int(input('Digite um número: '))
 resultado2 = numero_quadrado ** 2
@@ -33,7 +35,14 @@ numero_float1 = float(input('Digite um número float: '))
 numero_float2 = float(input('Digite outro numero float: '))
 soma_float = numero_float1 + numero_float2
 print(soma_float)
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+flutuante1 = float(input('Digite um número float: '))
+flutuante2 = float(input('Digite outro número float: '))
+soma = flutuante1 + flutuante2
+media = soma / 2
+print(soma)
+print(media)
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
