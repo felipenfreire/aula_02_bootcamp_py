@@ -75,7 +75,9 @@ print('Dia:', dia)
 print('Mês:', mes)
 print('Ano:', ano)
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
-
+string1 = input('Digite qualquer palavra: ')
+string2 = input('Digite outra palavra: ')
+print(f'{string1} {string2}')
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
