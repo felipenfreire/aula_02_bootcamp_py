@@ -67,7 +67,13 @@ print(nome_completo.lower())
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 frase = input('Digite aqui sua frase:')
 print(frase.strip())
+
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+data_nascimento = input('Qual sua data de nascimento (dd/mm/aaaa): ')
+dia, mes, ano = data_nascimento.split('/')
+print('Dia:', dia)
+print('Mês:', mes)
+print('Ano:', ano)
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
 # #### Booleanos (`bool`)
